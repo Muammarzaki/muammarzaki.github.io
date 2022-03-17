@@ -1,0 +1,133 @@
+.header {
+  position: relative;
+  width: 1440px;
+  height: 769px;
+  right: 0px;
+  top: 0px;
+}
+.name {
+  /* Frame 2 */
+
+  /* Auto layout */
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+
+  position: absolute;
+  width: 400px;
+  height: 204px;
+  left: 116px;
+  top: 200px;
+}
+.name_user .comment {
+  /* Hello My Name Muammar Zaki. I’m a UI/UX Designer & Full stack Developer */
+
+  position: absolute;
+  width: 704px;
+  height: 122px;
+  left: 30px;
+  top: 180px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  /* or 133% */
+
+  color: rgba(0, 0, 0, 0.65);
+}
+.name_h {
+  /* Hi I’m Muammar zaki */
+
+  position: static;
+  width: 340px;
+  height: 96px;
+  left: 30px;
+  top: 30px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 48px;
+  /* or 96% */
+
+  text-transform: capitalize;
+
+  color: rgba(0, 0, 0, 0.7);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.name_c {
+  /* junior developer */
+
+  position: static;
+  width: 214px;
+  height: 48px;
+  left: 30px;
+  top: 126px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height, or 160% */
+
+  text-align: center;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.blops {
+  /* Vector */
+
+  position: absolute;
+  width: 331px;
+  height: 331px;
+  left: 950px;
+  top: 200px;
+
+  /* background: linear-gradient(150.73deg, #4361ee 12.74%, rgba(67, 97, 238, 0) 106.24%); */
+}
+
+/* about */
+.about {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+
+  width: 1300px;
+  height: 769px;
+}
+.img_about {
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.text_c {
+  width: 500px;
+  margin-right: 50px;
+}
+
+.about_c {
+  font-size: 30px;
+}
+.about_co {
+  font-size: 20px;
+}
