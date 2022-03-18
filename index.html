@@ -13,10 +13,10 @@
     <link rel="icon" href="sorce/img/server-web.png" />
     <title>Fortofolio</title>
   </head>
-  <body>
+  <body class="">
     <div class="navbar_">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid container-md">
+        <div class="container-fluid container">
           <a class="navbar-brand" href="#">Marsal</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,82 +41,88 @@
       </nav>
     </div>
     <!-- header -->
-    <div class="header container-lg">
-      <div class="name">
-        <div class="name_user">
-          <p class="name_h">Hi I'm <span style="color: #3051eb"> Muammar zaki </span></p>
-          <p class="name_c">junior developer</p>
-          <div class="comment">
-            <p>Hello My Name Muammar Zaki. I'm a <span style="color: #f72585">UI</span>/<span style="color: #00c2ff">UX</span><span style="color: #3051eb"> Designer </span>&<span style="color: #3051eb"> Full stack Developer </span></p>
+    <div class="header container-lg container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="name">
+            <div class="name_user">
+              <p class="name_h">Hi I'm <span style="color: #3051eb"> Muammar zaki </span></p>
+              <p class="name_c text-start">junior developer</p>
+              <div class="comment">
+                <p>Hello My Name Muammar Zaki. I'm a <span style="color: #f72585">UI</span>/<span style="color: #00c2ff">UX</span><span style="color: #3051eb"> Designer </span>&<span style="color: #3051eb"> Full stack Developer </span></p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="blops">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <path
-            fill="#FF0066"
-            d="M40,-51.6C51.9,-37.7,61.7,-25.1,65.8,-10.3C70,4.5,68.5,21.6,60.3,33.8C52,45.9,37,53.1,20.5,61.2C4,69.3,-13.9,78.3,-31.7,76.4C-49.5,74.5,-67.3,61.8,-75.6,44.9C-84,27.9,-82.9,6.7,-79.4,-14.2C-75.9,-35.1,-70,-55.7,-56.3,-69.3C-42.7,-82.9,-21.3,-89.6,-3.6,-85.2C14,-80.9,28.1,-65.5,40,-51.6Z"
-            transform="translate(100 100)"
-          />
-        </svg>
+        <div class="col">
+          <div class="blops">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill="#FF0066"
+                d="M40,-51.6C51.9,-37.7,61.7,-25.1,65.8,-10.3C70,4.5,68.5,21.6,60.3,33.8C52,45.9,37,53.1,20.5,61.2C4,69.3,-13.9,78.3,-31.7,76.4C-49.5,74.5,-67.3,61.8,-75.6,44.9C-84,27.9,-82.9,6.7,-79.4,-14.2C-75.9,-35.1,-70,-55.7,-56.3,-69.3C-42.7,-82.9,-21.3,-89.6,-3.6,-85.2C14,-80.9,28.1,-65.5,40,-51.6Z"
+                transform="translate(100 100)"
+              />
+            </svg>
+          </div>
+        </div>
       </div>
     </div>
     <!-- end of header -->
     <!-- About -->
-    <div class="container container-lg">
+    <div class="container container-sm m-3">
       <div class="about">
-        <div class="img_about">
-          <img src="sorce/img/progback.jpeg" alt="" srcset="" />
-        </div>
-        <div class="text_c">
-          <div class="about_c">
-            <h2>About</h2>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="img_about d-flex justify-content-sm-end">
+              <img src="sorce/img/progback.jpeg" alt="" srcset="" />
+            </div>
           </div>
-          <p class="about_co" style="font-size: 18px">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor mattis non amet, purus non neque. Rhoncus velit velit leo tincidunt bibendum neque. Nulla quis diam quis lorem quis. Sed eu malesuada odio egestas.
-          </p>
+          <div class="col">
+            <div class="text_c align-self-center">
+              <div class="about_c">
+                <h2 class="text-center text-sm-start">About</h2>
+              </div>
+              <p class="about_co text-center text-sm-start" style="font-size: 18px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor mattis non amet, purus non neque. Rhoncus velit velit leo tincidunt bibendum neque. Nulla quis diam quis lorem quis. Sed eu malesuada odio egestas.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <!-- end of about -->
     <!-- skill -->
 
-    <div class="skill container container-lg mt-5">
-      <h2 class="skill-text mb-1">My specialize</h2>
-      <!-- <div class="lgkotak">
-        <div class="kotak kotak1">
-          t
-          <img src="" alt="" srcset="" />
-          <p></p>
-        </div>
-        <div class="kotak kotak2">t</div>
-        <div class="kotak kotak3">t</div>
-      </div> -->
-      <div class="cards mt-3">
-        <div class="col">
-          <div class="card p-2 mx-4 shadow-sm p-3 mb-5 bg-body rounded rounded-3" style="width: 18rem">
-            <img src="sorce/img/disainer-web.png" class="card-img-top border-dark rounded-3" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title text-center"><span style="color: #f72585">UI</span>/<span style="color: #00c2ff">UX</span><span style="color: #3051eb"> Design </span></h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div class="skill container container-sm">
+      <h2 class="skill-text text-sm-center d-flex justify-content-center">My specialize</h2>
+
+      <div class="cards mt-3 d-flex justify-content-center">
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="card p-2" style="width: 18rem">
+              <img src="sorce/img/disainer-web.png" class="card-img-top border-dark rounded-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center"><span style="color: #f72585">UI</span>/<span style="color: #00c2ff">UX</span><span style="color: #3051eb"> Design </span></h5>
+                <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card p-2 mx-4 shadow-sm p-3 mb-5 bg-body rounded rounded-3" style="width: 18rem">
-            <img src="sorce/img/server-web.png" class="card-img-top border-dark rounded-3" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title text-center"><span style="color: #3051eb"> Back-end </span></h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="col d-flex justify-content-center">
+            <div class="card p-2" style="width: 18rem">
+              <img src="sorce/img/server-web.png" class="card-img-top border-dark rounded-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center"><span style="color: #3051eb"> Back-end </span></h5>
+                <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card p-2 mx-4 shadow-sm p-3 mb-5 bg-body rounded rounded-3" style="width: 18rem">
-            <img src="sorce/img/frond-end.png" class="card-img-top border-dark rounded-3" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title text-center"><span style="color: #3051eb"> Frond-end </span></h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="col d-flex justify-content-center">
+            <div class="card p-2" style="width: 18rem">
+              <img src="sorce/img/frond-end.png" class="card-img-top border-dark rounded-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center"><span style="color: #3051eb"> Frond-end </span></h5>
+                <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -126,9 +132,9 @@
     <!-- my Project -->
     <div class="project">
       <div class="container container-lg text-center">
-        <h3 class="mb-4">My Project</h3>
+        <h3 class="">My Project</h3>
         <div class="card-group">
-          <div class="card mx-2 shadow-sm p-3 mb-5 bg-body rounded">
+          <div class="card mx-sm-2 shadow-sm p-3 mb-5 bg-body rounded">
             <img src="sorce/img/codingpath.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -136,7 +142,7 @@
               <p class="card-text text-start position-absolute bottom-0 start-0 m-2"><small class="text-muted"># Last updated 3 mins ago</small></p>
             </div>
           </div>
-          <div class="card mx-2 shadow-sm p-3 mb-5 bg-body rounded">
+          <div class="card mx-sm-2 shadow-sm p-3 mb-5 bg-body rounded">
             <img src="sorce/img/codingpath.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -144,7 +150,7 @@
               <p class="card-text text-start position-absolute bottom-0 start-0 m-2"><small class="text-muted"># Last updated 3 mins ago</small></p>
             </div>
           </div>
-          <div class="card mx-2 shadow-sm p-3 mb-5 bg-body rounded">
+          <div class="card mx-sm-2 shadow-sm p-3 mb-5 bg-body rounded">
             <img src="sorce/img/codingpath.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -157,33 +163,7 @@
     </div>
     <!-- end of project? -->
     <!-- contact -->
-    <div class="base-contact">
-      <div class="contact mt-5 container-lg">
-        <div class="contaner container-lg d-flex justify-content-between">
-          <div class="form-contact col">
-            <form class="">
-              <div class="mb-3 mt-5">
-                <label for="exampleInputEmail1" class="form-label">Name visite</label>
-                <input type="email" class="form-control w-50" id="exampleInputEmail1" placeholder="What you name?" />
-              </div>
-              <div class="mb-3">
-                <label for="floatingTextarea" class="form-label">Comment!</label>
-                <textarea class="form-control w-75" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary mb-4">Submit</button>
-            </form>
-          </div>
-          <div class="kotak-contact col">
-            t
-            <div class="email"></div>
-            <div class="github"></div>
-            <div class="instagram"></div>
-            <div class="facebook"></div>
-            <div class="nohp"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <!-- end of contact -->
     <footer class="d-flex justify-content-center text-center">Copyright © 2022</footer>
     <!-- Optional JavaScript; choose one of the two! -->
