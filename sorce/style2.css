@@ -1,9 +1,33 @@
 * {
   font-family: roboto, sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
 }
-@media (max-width: 1025px) {
+.img-impl {
+  /* option
+  al */
+  height: 200px;
+  width: 200px;
+}
+.img-icon {
+  height: 64px;
+  width: 64px;
+}
+.baris-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.programmer-language-uses {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: rgb(238, 241, 245);
+}
+@media (min-width: 1025px) {
+  .baris-1 > *,
+  .baris-2 > * {
+    font-size: 5rem;
+  }
   .desk-name {
-    font-size: 50px;
+    font-size: 100px;
   }
 }
